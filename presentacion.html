@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PEC1 Diseño Página Web</title>
+    <title>PEC 2.1 Web y recursos multimedia</title>
     <link rel="stylesheet" href="estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     
@@ -12,7 +12,10 @@
 <body>
     
     <header>
-        <img class="pestana" src="img/pestana.svg" alt="">
+        <img class="pestana" srcset="img/pestana.svg 480w,img/pestana.svg 800w"
+                             sizes="(max-width: 600px) 480px,800px"
+                             src="img/pestana.svg"alt="">
+        
         <nav class="navegacion-paginas-web">
             <a href="index.html">Portada</a>
             <a href="presentacion.html">Presentación</a>
@@ -23,29 +26,39 @@
 
     </header>
     <main>
+        <div>
+            <img class="logotipo" srcset="img/vuoc.png 480w,
+                    img/vuoc.png 800w"
+             sizes="(max-width: 600px) 480px,800px"
+             src="img/vuoc.png"alt="">
+        </div>
         <section class="contenedor-servicio" id="presentación">
             <h2 class="subtitulo-web">¿Que ofrecemos para tí?</h2>
             <div class="contenedor-servicio">
-                <img src="img/sam-mgrdichian-1bpmzhfzm0A-unsplash.jpg" alt="">
+                <img class="clip-animation" srcset="img/sam-mgrdichian-1bpmzhfzm0A-unsplash.svg 480w,
+                            img/sam-mgrdichian-1bpmzhfzm0A-unsplash.svg 800w"
+                     sizes="(max-width: 600px) 480px,800px"
+                     src="img/sam-mgrdichian-1bpmzhfzm0A-unsplash.svg"alt="viaje">
+
                 <div class="checklist-servicio">
                     <div class="text-presentacion">
                         <h3 class="text-2-presentacion"><span class="numero-presentacion">1</span>Organizamos tu viaje.</h3>
                         <p>Olvídate de todo, nos encargamos de organizar tu viaje desde tu salida hasta tu llegada a casa. <br></p><br>
                             <p>Nuestra experiencia de más de 100 años organizando viajes a lo largo de todo el mundo es nuestro mejor aval.</p>
-                    </div>
+                </div>
                     <div class="text-presentacion">
                         <h3 class="text-2-presentacion"><span class="numero-presentacion">2</span>Te ayudamos.</h3>
                         <p>Organizamos grupos con idénticas necesidades a las tuyas para que puedas viajar.</p>
-                    </div>
+                </div>
                     <div class="text-presentacion">
                         <h3 class="text-2-presentacion"><span class="numero-presentacion">3</span>Te sorprendemos.</h3>
                         <p> Dejanos sorprenderte. Dinos que buscas y encontraremos lo que quieres. El viaje a tu medida y que siempre soñaste.</p>
-                    </div>
+                </div>
                 </div>
             </div>
         </section> 
     </main>
     <footer></footer>
-    <script src="js/desplegable.js"></script>
+    <script type="module" src="js/desplegable.js"></script>
 </body>
 </html>

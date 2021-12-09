@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PEC1 Diseño Página Web</title>
+    <title>PEC 2.1 Web y recursos multimedia</title>
     <link rel="stylesheet" href="estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     
@@ -11,7 +11,15 @@
 <body>
     
     <header>
-        <img class="pestana" src="img/pestana.svg" alt="">
+        <div>
+            <img class="logotipo" srcset="img/vuoc.png 480w,
+                    img/vuoc.png 800w"
+             sizes="(max-width: 600px) 480px,800px"
+             src="img/vuoc.png"alt="">
+        </div>
+        <img class="pestana" srcset="img/pestana.svg 480w,img/pestana.svg 800w"
+                             sizes="(max-width: 600px) 480px,800px"
+                             src="img/pestana.svg"alt="">
         <nav class="navegacion-paginas-web">
             <a href="index.html">Portada</a>
             <a href="presentacion.html">Presentación</a>
@@ -20,18 +28,32 @@
             <a href="enlaces.html">Enlaces</a>
         </nav>
     </header>
-    <main></main>
+    <main>
+        
+    </main>
 
     <footer id="Enlaces">
-        <div class="contenedor footer-content">
-                <div class="contacto">
-                    <h1 class="nombre">Realizado: Rubén Sánchez</h2>
-                    <h2 class="nombre">Fotos: <a href="https://www.unsplash.com">unsplash</a></h2>
-                    <h2 class="nombre">Letra: <a href="https://fonts.googleapis.com">fonts</a></h2>
-                </div>  
+        <div>
+            <section class="contenedor-servicio-footer">  
+                  
+            <img class="contenedor-servicio-footer" srcset="img/geraltyichen-z0d98oStgN8-unsplash.svg 400w,
+                                                            img/geraltyichen-z0d98oStgN8-unsplash.svg 800w"
+                                                    sizes="(max-width: 600px) 400px,800px"
+                                                    srcset="img/geraltyichen-z0d98oStgN8-unsplash.svg"alt=""
+            
+            >
+             <div class="checklist-servicio-footer">
+                <h3 class="text-2-presentacion"><span class="numero-presentacion">1</span>Realizado: Rubén Sánchez</h2>
+                <h3 class="text-2-presentacion"><span class="numero-presentacion">2</span>Fotos: <a href="https://www.unsplash.com">unsplash</a></h2>
+                <h3 class="text-2-presentacion"><span class="numero-presentacion">3</span>Letra: <a href="https://fonts.googleapis.com">fonts</a></h3>
+                <h3 class="text-2-presentacion"><span class="numero-presentacion">4</span>Logotipo: <a href="https://www.canva.com/">Canva</a></h4>
+            </div>
+            </section>
         </div>
+        
+        
     </footer>
-    <script src="js/desplegable.js"></script>
+    <script type="module" src="js/desplegable.js"></script>
     
 </body>
 </html>

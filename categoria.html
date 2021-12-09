@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PEC1 Diseño Página Web</title>
+    <title>PEC 2.1 Web y recursos multimedia</title>
     <link rel="stylesheet" href="estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     
@@ -11,7 +11,15 @@
 <body>
     
     <header class="">
-        <img class="pestana" src="img/pestana.svg" alt="">
+        <div>
+            <img class="logotipo" srcset="img/vuoc.png 480w,
+                    img/vuoc.png 800w"
+             sizes="(max-width: 600px) 480px,800px"
+             src="img/vuoc.png"alt="">
+        </div>
+            <img class="pestana" srcset="img/pestana.svg 480w,img/pestana.svg 800w"
+                             sizes="(max-width: 600px) 480px,800px"
+                             src="img/pestana.svg"alt="">
         <nav class="navegacion-paginas-web">
             <a href="index.html">Portada</a>
             <a href="presentacion.html">Presentación</a>
@@ -27,24 +35,33 @@
             <h2 class="subtitulo-web">Nuestros relatos:</h2>
             <section class="detalles">
                 <div class="cont-detalle">
-                    <img src="img/alexander-aguero-CnX_4bqrkOQ-unsplash.jpg" alt="">
+                    <img srcset="img/alexander-aguero-CnX_4bqrkOQ-unsplash.jpg 480w,
+                                img/alexander-aguero-CnX_4bqrkOQ-unsplash.jpg 800w"
+                         sizes="(max-width: 600px) 480px,
+                            800px" 
+                         src="img/alexander-aguero-CnX_4bqrkOQ-unsplash.jpg"alt="">
                     <h3 class="n-expert">Ruta de las Cascadas Azules</h3>
                 </div>
                 <div class="cont-detalle">
-                    <img src="img/javier-saint-jean-GGMy-UYmU48-unsplash.jpg" alt="">
+                    <img srcset="img/javier-saint-jean-GGMy-UYmU48-unsplash.jpg,
+                                img/javier-saint-jean-GGMy-UYmU48-unsplash.jpg 1.5x,
+                                img/javier-saint-jean-GGMy-UYmU48-unsplash.jpg 2x"
+                        src="img/javier-saint-jean-GGMy-UYmU48-unsplash.jpg"alt="">
                     <h3 class="n-expert">Nada con los delfines</h3>
                 </div>
                 <div class="cont-detalle">
-                    <img src="img/florian-gretillat-k9t6sRN8yBg-unsplash.jpg" alt="">
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="img/florian-gretillat-k9t6sRN8yBg-unsplash.jpg">
+                        <source media="(min-width: 800px)" srcset="img/florian-gretillat-k9t6sRN8yBg-unsplash.jpg">
+                        <img src="img/florian-gretillat-k9t6sRN8yBg-unsplash.jpg" alt="">
+                    </picture>
                     <h3 class="n-expert">Monte Verde</h3>
                 </div>
             </section>
         </section>
-
-      
     </main>
     <footer>   </footer>
     
-    <script src="js/desplegable.js"></script>
+    <script type="module" src="js/desplegable.js"></script>
 </body>
 </html>

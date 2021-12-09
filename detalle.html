@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PEC1 Diseño Página Web</title>
+    <title>PEC 2.1 Web y recursos multimedia</title>
     <link rel="stylesheet" href="estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     
@@ -11,7 +11,11 @@
 <body>
     
     <header class="">
-            <img class="pestana" src="img/pestana.svg" alt="">
+            
+        <img class="pestana" srcset="img/pestana.svg 480w,img/pestana.svg 800w"
+                             sizes="(max-width: 600px) 480px,800px"
+                             src="img/pestana.svg"alt="">
+
             <nav class="navegacion-paginas-web">
                 <a href="index.html">Portada</a>
                 <a href="presentacion.html">Presentación</a>
@@ -21,11 +25,23 @@
             </nav>   
     </header>
     <main> 
+        <div>
+            <img class="logotipo" srcset="img/vuoc.png 480w,
+                    img/vuoc.png 800w"
+             sizes="(max-width: 600px) 480px,800px"
+             src="img/vuoc.png"alt="">
+
+        </div>
         <div class="contenedor-servicio">
             <article>
                 <h1 class="subtitulo-web">Ruta de las cascadas azules</h1><br>
                 <div class="contenedor-servicio">
-                <img src="img/alexander-aguero-CnX_4bqrkOQ-unsplash.jpg" alt="">
+                    <img srcset="img/alexander-aguero-CnX_4bqrkOQ-unsplash.jpg 480w,
+                                 img/alexander-aguero-CnX_4bqrkOQ-unsplash.jpg 800w"
+                        sizes="(max-width: 600px) 480px,800px" 
+                        src="img/alexander-aguero-CnX_4bqrkOQ-unsplash.jpg"alt="">
+
+
                 <div class="text-2-presentacion">
                 <p><br>
                     La ruta de las cascada azules es una de las rutas más visitadas a lo largo del mundo.
@@ -37,7 +53,6 @@
             </article>
     </main>
     <footer></footer>
-    <script src="js/desplegable.js"></script>
-
+    <script type="module" src="js/desplegable.js"></script>
 </body>
 </html>

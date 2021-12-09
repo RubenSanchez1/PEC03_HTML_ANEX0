@@ -11,7 +11,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-
+/*CATEGORIA*/
 .contenedor{
     width: 90%;
     max-width: 1200px;
@@ -19,16 +19,25 @@ body{
     margin: auto;
     padding: 60px 0;
 }
-
+/*Index.html: página de presentación*/
 .encabezado-presentacion{
     height: 100vh;
     background-image: linear-gradient(to top, rgba(195, 194, 251, 0.486) 0%, hsla(218, 80%, 25%, 0.514) 100%), url( img/kristin-wilson-z3htkdHUh5w-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+/*Index.html: página de presentación*/
+.logotipo{
+    background: url(img/vuoc.png);
+    width: 65px;
+    height: 65px;
+    border: 50px;
     
 }
 
+
+/*
 .index{
     padding: 0;
     height: 100%;
@@ -38,20 +47,25 @@ body{
     text-align: center;
     color: #fff;
 }
-
-
+*/
+/*VINCULADO A JS. ES LA PESTAÑA DESPLEGABLE. APLICABLE A TODAS LAS PAGINAS*/
 .pestana{
     position: fixed;
     top: 30px;
     right: 30px;
-    background: rgb(255, 255, 255);
+    background: rgb(58, 99, 211);
     width: 40px;
     height: 40px;
     cursor: pointer;
     border-radius: 10px;
-    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 6px rgba(99, 200, 207, 0.5);
+    clip-path: circle(20px at center);
+    
 }
 
+
+
+/*VINCULADO A JS. ES EL VINCULO ENTRE TODAS LAS PAGINAS*/
 .navegacion-paginas-web{
     position: fixed;
     top: 0;
@@ -68,16 +82,16 @@ body{
     transition:transform 0.3s ease-in-out;
     box-shadow: 0 0 6px rgba(0, 0, 0, .5);
 }
-
+/*APLICABLE A TODAS LAS PAGINAS. VINCULADO A JS*/
 .aument{
     transform: translateX(0);
 }
-
+/*INDEX. TITULO DEL PARRAFO*/
 .titulo-web{
     font-size: 60px;
     margin-bottom: 15px;
 }
-
+/*INDEX, DETALLE Y CATEGORIA. SUBTITULO DEL PARRAFO*/
 .subtitulo-web{
     color: #9f8ad0;
     font-size: 40px;
@@ -86,30 +100,37 @@ body{
     margin-bottom: 30px;
 }
 
+
+/*PRESENTACION.*/
+/*PRESENTACION Y DETALLE. TITULO DE LA SECCIÓN*/
+
+
 .contenedor-servicio{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
-
+/*PRESENTACION. CONTENEDOR DE PRESENTACION*/
 .contenedor-servicio img{
     width: 25%;
-}
+    clip-path: circle(400px at center);
+  }
 
+/*PRESENTACION. CLASE DIV*/
 .checklist-servicio{
-    width: 40%;
+    width: 50%;
 }
-
+/*PRESENTACION. CLASE DEL TEXTO*/
 .text-presentacion{
     margin-bottom: 25px;
 }
-
+/*PRESENTACION Y DETALLE. CLASE DEL TEXTO DEL NUMERO*/
 .text-2-presentacion{
     margin-bottom: 7px;
     color: #9f8ad0;
 }
-
+/*PRESENTACION. CLASE DEL CIRCULO DEL NUMERO*/
 .numero-presentacion{
     display: inline-block;
     background-image: linear-gradient(to top, #090514 0%, #fbc2eb 100%);
@@ -123,7 +144,8 @@ body{
     font-weight: 700;
 }
 
-
+/*CATEGORÍA.*/
+/*CATEGORÍA. SECCION*/
 .detalles{
     width: 100%;
     display: flex;
@@ -131,9 +153,9 @@ body{
     justify-content: space-evenly;
     align-items: center;
 }
-
+/*CATEGORÍA. CONTENEDOR DE LAS IMAGENES*/
 .cont-detalle{
-    width: 30%;
+    width: 20%;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -144,6 +166,9 @@ body{
     width: 60%;
 }
 
+
+
+/*CATEGORÍA. TEXTO DE LAS IMAGENES*/
 .n-expert{
     width: 100%;
     display: inline-block;
@@ -151,8 +176,10 @@ body{
     font-weight: 400;
 }
 
+/*ENLACES.*/
+/*ENLACES. CONTENEDOR DEL FOOTER*/
 footer{
-    background: #1e045c;
+    background: #fff;
     padding-bottom: 0.1px;
 }
 
@@ -161,60 +188,34 @@ footer{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding-top: 40px;
-    padding-bottom: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
-
+/*ENLACES. DIV*/
 .contacto{
     width: 40%;
     color: #fff;
 }
-
+/*ENLACES. TEXTO*/
 .nombre{
     font-weight: 500;
     font-size: 40px;
 }
-
-/* contenedor articulo
-
-.container-content{
-    width: 1200px;
-    margin: auto;
-    margin-top: 40 px;
-    
-
+/**CONTENEDOR FOOTER*/
+.contenedor-servicio-footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
 }
-
-article{
-    width: 100%;
-    padding: 20px;
-    padding-bottom: 40px;
-    box-shadow: -10px 0 -30px black;
-    border-radius: 6px;
-    overflow: hidden;
-    position: relative;
-
-}
-
-article:before{
-    content: '';
-    width:100%
-    height: 6px;
-    position: absolute;
-    top: 0;
-    left:0;
-    background: #fff;
-
-article h1{
-    margin-top: 20px;
-    font-weight: 500;
-    font-size: 40px;
-    
+/*PRESENTACION. CONTENEDOR DE FOOTER*/
+.contenedor-servicio-footer img{
+    width: 25%;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);     
 }
 
 
-*/
 
 
 @media screen and (max-width: 800px){
@@ -238,7 +239,7 @@ article h1{
     .service{
         margin-bottom: 30px;
     }
-
+/*
     .img-galeria{
         width: 45%;
     }
@@ -247,7 +248,7 @@ article h1{
         width: 80%;
     }
 
-    
+    */
     .cont-expert{
         width: 80%;
     }
@@ -282,7 +283,7 @@ article h1{
     .subtitulo-web{
         font-size: 30px;
     }
-
+/*
     .img-galeria{
         width: 95%;
     }
@@ -290,7 +291,7 @@ article h1{
     .agregar-imagen{
         width: 90%;
     }
-
+*/
     .contacto{
         text-align: center;
         width: 95%;
@@ -316,7 +317,7 @@ article h1{
     .subtitulo-web{
         font-size: 30px;
     }
-
+/*
     .img-galeria{
         width: 95%;
     }
@@ -324,7 +325,7 @@ article h1{
     .agregar-imagen{
         width: 90%;
     }
-
+*/
     .contacto{
         text-align: center;
         width: 95%;

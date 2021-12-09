@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*CATEGORIA*/
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+
+/*Index.html: página de presentación*/
+
+.encabezado-presentacion{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(195, 194, 251, 0.486) 0%, hsla(218, 80%, 25%, 0.514) 100%), url( kristin-wilson-z3htkdHUh5w-unsplash.6c866bd0.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*Index.html: página de presentación*/
+
+.logotipo{
+    background: url(vuoc.038e7369.png);
+    width: 65px;
+    height: 65px;
+    border: 50px;
+    
+}
+
+/*
+.index{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+*/
+
+/*VINCULADO A JS. ES LA PESTAÑA DESPLEGABLE. APLICABLE A TODAS LAS PAGINAS*/
+
+.pestana{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    background: rgb(58, 99, 211);
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(99, 200, 207, 0.5);
+    -webkit-clip-path: circle(20px at center);
+            clip-path: circle(20px at center);
+    
+}
+
+/*VINCULADO A JS. ES EL VINCULO ENTRE TODAS LAS PAGINAS*/
+
+.navegacion-paginas-web{
+    position: fixed;
+    top: 0;
+    width: 25vw;
+    height: 100%;
+    background-image: linear-gradient(to top, #130e55 0%, #c6c2fb 100%);
+    background-image: linear-gradient(135deg, #030614 0%, #210c53 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    right: 0;
+    transform: translateX(110%);
+    transition:transform 0.3s ease-in-out;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+
+/*APLICABLE A TODAS LAS PAGINAS. VINCULADO A JS*/
+
+.aument{
+    transform: translateX(0);
+}
+
+/*INDEX. TITULO DEL PARRAFO*/
+
+.titulo-web{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+/*INDEX, DETALLE Y CATEGORIA. SUBTITULO DEL PARRAFO*/
+
+.subtitulo-web{
+    color: #9f8ad0;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+/*PRESENTACION.*/
+
+/*PRESENTACION Y DETALLE. TITULO DE LA SECCIÓN*/
+
+.contenedor-servicio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*PRESENTACION. CONTENEDOR DE PRESENTACION*/
+
+.contenedor-servicio img{
+    width: 25%;
+    -webkit-clip-path: circle(400px at center);
+            clip-path: circle(400px at center);
+  }
+
+/*PRESENTACION. CLASE DIV*/
+
+.checklist-servicio{
+    width: 50%;
+}
+
+/*PRESENTACION. CLASE DEL TEXTO*/
+
+.text-presentacion{
+    margin-bottom: 25px;
+}
+
+/*PRESENTACION Y DETALLE. CLASE DEL TEXTO DEL NUMERO*/
+
+.text-2-presentacion{
+    margin-bottom: 7px;
+    color: #9f8ad0;
+}
+
+/*PRESENTACION. CLASE DEL CIRCULO DEL NUMERO*/
+
+.numero-presentacion{
+    display: inline-block;
+    background-image: linear-gradient(to top, #090514 0%, #fbc2eb 100%);
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+
+/*CATEGORÍA.*/
+
+/*CATEGORÍA. SECCION*/
+
+.detalles{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*CATEGORÍA. CONTENEDOR DE LAS IMAGENES*/
+
+.cont-detalle{
+    width: 20%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cont-detalle img{
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+/*CATEGORÍA. TEXTO DE LAS IMAGENES*/
+
+.n-expert{
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+/*ENLACES.*/
+
+/*ENLACES. CONTENEDOR DEL FOOTER*/
+
+footer{
+    background: #fff;
+    padding-bottom: 0.1px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/*ENLACES. DIV*/
+
+.contacto{
+    width: 40%;
+    color: #fff;
+}
+
+/*ENLACES. TEXTO*/
+
+.nombre{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+/**CONTENEDOR FOOTER*/
+
+.contenedor-servicio-footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*PRESENTACION. CONTENEDOR DE FOOTER*/
+
+.contenedor-servicio-footer img{
+    width: 25%;
+    -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);     
+}
+
+@media screen and (max-width: 800px){
+    .navegacion-paginas-web{
+        width: 50vw;
+    }
+
+    .titulo-web{
+        font-size: 40px;
+    }
+
+    .contenedor-servicio img{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    
+    .checklist-servicio{
+        width: 80%;
+    }
+
+    .service{
+        margin-bottom: 30px;
+    }
+/*
+    .img-galeria{
+        width: 45%;
+    }
+    
+    .agregarImagen{
+        width: 80%;
+    }
+
+    */
+    .cont-expert{
+        width: 80%;
+    }
+    
+    .footer-content{
+        justify-content: center;
+    }
+
+    .contacto{
+        text-align: center;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    .navegacion-paginas-web{
+        width: 65vw;
+    }
+
+    .pestana{
+        top: 20px;
+        right: 20px;
+    }
+
+    .titulo-web{
+        font-size: 30px;
+    }
+
+    .subtitulo-web{
+        font-size: 30px;
+    }
+/*
+    .img-galeria{
+        width: 95%;
+    }
+    
+    .agregar-imagen{
+        width: 90%;
+    }
+*/
+    .contacto{
+        text-align: center;
+        width: 95%;
+        margin-bottom: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 400px){
+    .navegacion-paginas-web{
+        width: 65vw;
+    }
+
+    .pestana{
+        top: 20px;
+        right: 20px;
+    }
+
+    .titulo-web{
+        font-size: 30px;
+    }
+
+    .subtitulo-web{
+        font-size: 30px;
+    }
+/*
+    .img-galeria{
+        width: 95%;
+    }
+    
+    .agregar-imagen{
+        width: 90%;
+    }
+*/
+    .contacto{
+        text-align: center;
+        width: 95%;
+        margin-bottom: 40px;
+    }
+    
+}
+/*# sourceMappingURL=index.e3bb8702.css.map */
