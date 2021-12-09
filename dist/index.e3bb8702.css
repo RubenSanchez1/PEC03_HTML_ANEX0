@@ -201,6 +201,17 @@ body{
     font-weight: 400;
 }
 
+/*DETALLE. TRANSICION TEXTO*/
+
+.resaltado {
+    color: rgb(15, 4, 75);
+    transition: background-color 0.5s ease-out;
+  }
+
+.resaltado:hover {
+    color: #1ce;
+  }
+
 /*ENLACES.*/
 
 /*ENLACES. CONTENEDOR DEL FOOTER*/
