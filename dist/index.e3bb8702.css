@@ -308,6 +308,17 @@ footer{
     
 }
 
+/*DETALLE. TRANSICION TEXTO*/
+
+.resaltado {
+    color: rgb(15, 4, 75);
+    transition: background-color 0.5s ease-out;
+  }
+
+.resaltado:hover {
+    color: #1ce;
+  }
+
 @media screen and (max-width: 500px){
     .navegacion-paginas-web{
         width: 65vw;
@@ -342,6 +353,17 @@ footer{
     
 }
 
+/*DETALLE. TRANSICION TEXTO*/
+
+.resaltado {
+    color: rgb(15, 4, 75);
+    transition: background-color 0.5s ease-out;
+  }
+
+.resaltado:hover {
+    color: #1ce;
+  }
+
 @media screen and (max-width: 400px){
     .navegacion-paginas-web{
         width: 65vw;
@@ -375,4 +397,15 @@ footer{
     }
     
 }
+
+/*DETALLE. TRANSICION TEXTO*/
+
+.resaltado {
+    color: rgb(15, 4, 75);
+    transition: background-color 0.5s ease-out;
+  }
+
+.resaltado:hover {
+    color: #1ce;
+  }
 /*# sourceMappingURL=index.e3bb8702.css.map */
