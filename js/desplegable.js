@@ -12,3 +12,12 @@ window.addEventListener('click', e =>{
         nav.classList.toggle("aument ")
     }
 })
+
+
+function loadScript(src) {
+    let script = document.createElement('script');
+    script.src = src;
+    script.async = false;
+    document.body.append(script);
+  }
+  loadScript("js/desplegable.js");
