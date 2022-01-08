@@ -467,6 +467,13 @@ icono.addEventListener('click', ()=>{
 window.addEventListener('click', (e)=>{
     if (nav.classList.contains('aument') && e.target != menu && e.target != icono) nav.classList.toggle("aument ");
 });
+function loadScript(src) {
+    let script = document.createElement('script');
+    script.src = src;
+    script.async = false;
+    document.body.append(script);
+}
+loadScript("js/desplegable.js");
 
 },{}]},["5zkJi","eG7Sq"], "eG7Sq", "parcelRequired995")
 
