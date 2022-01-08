@@ -42,20 +42,6 @@ body{
     
 }
 
-/*
-.index{
-    padding: 0;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    color: #fff;
-}
-*/
-
-/*VINCULADO A JS. ES LA PESTAÑA DESPLEGABLE. APLICABLE A TODAS LAS PAGINAS*/
-
 .pestana{
     position: fixed;
     top: 30px;
@@ -70,8 +56,6 @@ body{
             clip-path: circle(20px at center);
     
 }
-
-/*VINCULADO A JS. ES EL VINCULO ENTRE TODAS LAS PAGINAS*/
 
 .navegacion-paginas-web{
     position: fixed;
@@ -90,20 +74,14 @@ body{
     box-shadow: 0 0 6px rgba(0, 0, 0, .5);
 }
 
-/*APLICABLE A TODAS LAS PAGINAS. VINCULADO A JS*/
-
 .aument{
     transform: translateX(0);
 }
-
-/*INDEX. TITULO DEL PARRAFO*/
 
 .titulo-web{
     font-size: 60px;
     margin-bottom: 15px;
 }
-
-/*INDEX, DETALLE Y CATEGORIA. SUBTITULO DEL PARRAFO*/
 
 .subtitulo-web{
     color: #9f8ad0;
@@ -113,10 +91,6 @@ body{
     margin-bottom: 30px;
 }
 
-/*PRESENTACION.*/
-
-/*PRESENTACION Y DETALLE. TITULO DE LA SECCIÓN*/
-
 .contenedor-servicio{
     display: flex;
     justify-content: space-evenly;
@@ -124,34 +98,24 @@ body{
     flex-wrap: wrap;
 }
 
-/*PRESENTACION. CONTENEDOR DE PRESENTACION*/
-
 .contenedor-servicio img{
     width: 25%;
     -webkit-clip-path: circle(400px at center);
             clip-path: circle(400px at center);
   }
 
-/*PRESENTACION. CLASE DIV*/
-
 .checklist-servicio{
     width: 50%;
 }
-
-/*PRESENTACION. CLASE DEL TEXTO*/
 
 .text-presentacion{
     margin-bottom: 25px;
 }
 
-/*PRESENTACION Y DETALLE. CLASE DEL TEXTO DEL NUMERO*/
-
 .text-2-presentacion{
     margin-bottom: 7px;
     color: #9f8ad0;
 }
-
-/*PRESENTACION. CLASE DEL CIRCULO DEL NUMERO*/
 
 .numero-presentacion{
     display: inline-block;
@@ -166,10 +130,6 @@ body{
     font-weight: 700;
 }
 
-/*CATEGORÍA.*/
-
-/*CATEGORÍA. SECCION*/
-
 .detalles{
     width: 100%;
     display: flex;
@@ -177,8 +137,6 @@ body{
     justify-content: space-evenly;
     align-items: center;
 }
-
-/*CATEGORÍA. CONTENEDOR DE LAS IMAGENES*/
 
 .cont-detalle{
     width: 20%;
@@ -192,16 +150,12 @@ body{
     width: 60%;
 }
 
-/*CATEGORÍA. TEXTO DE LAS IMAGENES*/
-
 .n-expert{
     width: 100%;
     display: inline-block;
     margin-top: 20px;
     font-weight: 400;
 }
-
-/*DETALLE. TRANSICION TEXTO*/
 
 .resaltado {
     color: rgb(15, 4, 75);
@@ -211,10 +165,6 @@ body{
 .resaltado:hover {
     color: #1ce;
   }
-
-/*ENLACES.*/
-
-/*ENLACES. CONTENEDOR DEL FOOTER*/
 
 footer{
     background: #fff;
@@ -230,21 +180,15 @@ footer{
     padding-bottom: 0px;
 }
 
-/*ENLACES. DIV*/
-
 .contacto{
     width: 40%;
     color: #fff;
 }
 
-/*ENLACES. TEXTO*/
-
 .nombre{
     font-weight: 500;
     font-size: 40px;
 }
-
-/**CONTENEDOR FOOTER*/
 
 .contenedor-servicio-footer{
     display: flex;
@@ -252,8 +196,6 @@ footer{
     align-items: center;
     flex-wrap: wrap;
 }
-
-/*PRESENTACION. CONTENEDOR DE FOOTER*/
 
 .contenedor-servicio-footer img{
     width: 25%;
@@ -282,16 +224,7 @@ footer{
     .service{
         margin-bottom: 30px;
     }
-/*
-    .img-galeria{
-        width: 45%;
-    }
-    
-    .agregarImagen{
-        width: 80%;
-    }
 
-    */
     .cont-expert{
         width: 80%;
     }
@@ -307,8 +240,6 @@ footer{
     }
     
 }
-
-/*DETALLE. TRANSICION TEXTO*/
 
 .resaltado {
     color: rgb(15, 4, 75);
@@ -336,15 +267,7 @@ footer{
     .subtitulo-web{
         font-size: 30px;
     }
-/*
-    .img-galeria{
-        width: 95%;
-    }
-    
-    .agregar-imagen{
-        width: 90%;
-    }
-*/
+
     .contacto{
         text-align: center;
         width: 95%;
@@ -352,8 +275,6 @@ footer{
     }
     
 }
-
-/*DETALLE. TRANSICION TEXTO*/
 
 .resaltado {
     color: rgb(15, 4, 75);
@@ -381,15 +302,7 @@ footer{
     .subtitulo-web{
         font-size: 30px;
     }
-/*
-    .img-galeria{
-        width: 95%;
-    }
-    
-    .agregar-imagen{
-        width: 90%;
-    }
-*/
+
     .contacto{
         text-align: center;
         width: 95%;
@@ -397,8 +310,6 @@ footer{
     }
     
 }
-
-/*DETALLE. TRANSICION TEXTO*/
 
 .resaltado {
     color: rgb(15, 4, 75);
