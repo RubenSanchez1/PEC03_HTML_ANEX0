@@ -22,7 +22,7 @@ body{
 /*Index.html: página de presentación*/
 .encabezado-presentacion{
     height: 100vh;
-    background-image: linear-gradient(to top, rgba(195, 194, 251, 0.486) 0%, hsla(218, 80%, 25%, 0.514) 100%), url( img/kristin-wilson-z3htkdHUh5w-unsplash.jpg);
+    background-image: linear-gradient(to top, rgba(195, 194, 251, 0.486) 0%, hsla(218, 80%, 25%, 0.514) 100%), url( img/kristin-wilson-z3htkdHUh5w-unsplash.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
