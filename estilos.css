@@ -29,7 +29,7 @@ body{
 }
 /*Index.html: página de presentación*/
 .logotipo{
-    background: url(img/vuoc.png);
+    background: url(img/vuoc.webp);
     width: 65px;
     height: 65px;
     border: 50px;

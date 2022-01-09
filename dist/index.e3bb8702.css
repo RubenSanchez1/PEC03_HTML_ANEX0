@@ -26,7 +26,7 @@ body{
 
 .encabezado-presentacion{
     height: 100vh;
-    background-image: linear-gradient(to top, rgba(195, 194, 251, 0.486) 0%, hsla(218, 80%, 25%, 0.514) 100%), url( kristin-wilson-z3htkdHUh5w-unsplash.6c866bd0.jpg);
+    background-image: linear-gradient(to top, rgba(195, 194, 251, 0.486) 0%, hsla(218, 80%, 25%, 0.514) 100%), url( kristin-wilson-z3htkdHUh5w-unsplash.acca54b2.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -35,7 +35,7 @@ body{
 /*Index.html: página de presentación*/
 
 .logotipo{
-    background: url(vuoc.038e7369.png);
+    background: url(vuoc.9ca9322e.webp);
     width: 65px;
     height: 65px;
     border: 50px;
